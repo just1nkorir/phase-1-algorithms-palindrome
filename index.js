@@ -1,5 +1,12 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  let normal = word
+  let reversed = word.split('').reverse().join('')
+  if (normal === reversed) {
+    return true
+  } else {
+    return false
+  }
 }
 
 /* 
